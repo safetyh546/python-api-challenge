@@ -1,10 +1,10 @@
 # Group project to analyze - Does the size of a household impact ability to obtain higher education
 
 ## Files of interest in this reposiory
-Team Dingo-2-2.pptx - powerpoint reviewed in class  
-JupyterNotebooks\Edu_vs_Famv2.ipynb  - cleaned Jupyter notebook with calculations and charts used in powerpoint  
-JupyterNotebooks\Merged.csv - final csv data file used in our final calcuations and charts  
-Chart images are the .png files located in JupyterNotebooks folder  
+Team Dingo-2-2.pptx - powerpoint reviewed in class<br />
+JupyterNotebooks\Edu_vs_Famv2.ipynb  - cleaned Jupyter notebook with calculations and charts used in powerpoint<br />
+JupyterNotebooks\Merged.csv - final csv data file used in our final calcuations and charts<br />  
+Chart images are the .png files located in JupyterNotebooks folder<br /> 
 
 ## Null/Alternative Hypothesis
 Ho : The household size has no impact on the ability to obtain higher education
