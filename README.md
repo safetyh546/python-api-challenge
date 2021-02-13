@@ -1,5 +1,8 @@
 # Group project to analyze - Does the size of a household impact ability to obtain higher education
 
+# Team Members
+Nick Adzema, Alice Arnold, Jasmine Bates, Maxbooz Homidas
+
 ## Files of interest in this reposiory
 Team Dingo-2-2.pptx - powerpoint reviewed in class<br />
 JupyterNotebooks\Edu_vs_Famv2.ipynb  - cleaned Jupyter notebook with calculations and charts used in powerpoint<br />
@@ -16,15 +19,15 @@ In the end we found both household and education data in 2019 household census d
 Specifically we used the census American Community Survey (ACS) 2019 data tables<br />
 
 ## Census Data Cleanup:
-data came in form of multiple CSVs with a Geographic Area name (County,State) and blank values<br />
+Data came in the form of multiple CSVs with a Geographic Area name (County,State) and some counties with blank values<br />
 First step we took was merging all data into one csv and dropping the blanks (Merged.csv)<br />
 Then in our Jupyter notebook code we had to remove one row with string data<br />
 We also split the Geographic Area name into two columns, County and State<br />
 Finally we converted datatypes to int/float and renamed columns for ease of reading<br />
 
 ## Census Data Described:
-there were 50 states plus DC and Puerto Rico.  We dropped Puerto Rico as it was blank<br />
-the data had over 150 variables, each variable with a column for Estimate, Percent, Percent Margin of Error, Estimate Margin of error<br />
+There were 50 states plus DC and Puerto Rico.  We dropped Puerto Rico as it was blank<br />
+The data had over 150 variables, each variable with a column for Estimate, Percent, Percent Margin of Error, Estimate Margin of error<br />
 We focused on 2 variables - Percent of population 25 years and older with a bachelor’s degree and Average Family size<br />
 Note Average Family per census definitions includes the family householder (person who owns or rents the home) and all other people in the living quarters who are related to the householder by birth, marriage, or adoption.<br />
 While the data is at county level (3971 counties), we took the mean across all counties to get one state value<br />
