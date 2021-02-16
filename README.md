@@ -33,10 +33,11 @@ Doesn't appear that latitude relates to higher or lower wind speed<br />
 ## Northern/Southern Hemisphere - Temperature (F) vs. Latitude
 Northern Hemisphere has a inverse regression, temp starting high and going down as you move away from lat = 0<br />
 Southern Hemisphere has a postiive regression line, temp starting low and going up as you approach lat = 0<br />
-r-value of .76 is close to 1 indicating significance as observed in plot above
+Northern hemisphere r-value of .76 is close to 1 indicating significance as observed in plot above<br />
+Southern hemisphere r-value of .39 is also significant<br />
 ## Northern/Southern Hemisphere - Humidity (%) vs. Latitude
 Northern hemisphere r-value isn't as significant at r = .16<br />
-Souther hemisphere r-value also is very small at r = .02<br />
+Southern hemisphere r-value also is very small at r = .02<br />
 in Northern - Some level of relationship seems to follow temp as humidity goes up as you get farther away from lat = 0<br />
 ## Northern/Southern Hemisphere - Cloudiness (%) vs. Latitude
 r-value for both hemispheres is small<br />
